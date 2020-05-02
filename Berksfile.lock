@@ -1,0 +1,9 @@
+DEPENDENCIES
+  elasticsearch_cookbook
+    git: https://github.com/ElAouane/app_elasticsearch.git
+    revision: 459e6094b5d4a60d12b9f675c6a30dac66de1b19
+
+GRAPH
+  apt (7.3.0)
+  elasticsearch_cookbook (0.1.0)
+    apt (>= 0.0.0)
